@@ -11,6 +11,108 @@
 		(company "Design of a simple generic sensor board for SMD or THT Photo Diodes")
 	)
 	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.762) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Connector_Generic:Conn_01x05"
 			(pin_names
 				(offset 1.016) hide)
@@ -835,6 +937,518 @@
 				)
 			)
 		)
+		(symbol "PB_Library:PMV45EN2"
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "PMV45EN2"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
+				(at 5.08 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PMV45EN2.pdf"
+				(at 5.08 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "N-Channel MOSFET, 5.1 A, 30 V, 3-Pin SOT-23"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "n channel fet"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?223*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PMV45EN2_0_1"
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "PMV45EN2_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Sensor_Optical:BPW40"
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "BPW40"
+				(at 5.08 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "LED_THT:LED_D5.0mm_Clear"
+				(at 12.192 -3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.rcscomponents.kiev.ua/datasheets/bpw40.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Phototransistor NPN"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "npn phototransistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED*D5.0mm*Clear*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BPW40_0_1"
+				(polyline
+					(pts
+						(xy -1.905 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.54) (xy -1.905 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 0.635) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 3.175) (xy -1.905 1.27) (xy -1.905 1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.175 4.445) (xy -1.27 2.54) (xy -1.27 3.175)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -0.635) (xy 2.54 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.905) (xy 0.635 -1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778) (xy 1.27 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.27 0)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "BPW40_1_1"
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Transistor_BJT:BC849"
 			(pin_names
 				(offset 0) hide)
@@ -1009,207 +1623,6 @@
 					(at 2.54 5.08 270)
 					(length 2.54)
 					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Transistor_FET:BF545A"
-			(pin_names hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "BF545A"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-				(at 5.08 -1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.nxp.com/docs/en/data-sheet/BF545A_BF545B_BF545C.pdf"
-				(at 5.08 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "5mA Idss, 30V Vgs, N-Channel JFET, SOT-23"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "N-Channel FET Transistor Low Voltage"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOT?23*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "BF545A_0_1"
-				(polyline
-					(pts
-						(xy 0.254 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 -1.397) (xy 0.254 -1.397)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.397) (xy 0.254 1.397)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy -1.016 0.381) (xy -1.016 -0.381) (xy 0 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 1.27 0)
-					(radius 2.8194)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "BF545A_1_1"
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "G"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1564,6 +1977,18 @@
 		)
 	)
 	(junction
+		(at 119.38 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "19ac6cf6-2059-4925-a9ce-4f92075ce440")
+	)
+	(junction
+		(at 162.56 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1fb6bde3-77fb-4d0c-b9cf-1de55368bf43")
+	)
+	(junction
 		(at 119.38 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1600,28 +2025,22 @@
 		(uuid "61398515-4d13-4870-aa13-324b0f34d873")
 	)
 	(junction
-		(at 160.02 85.09)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6824dace-262b-4939-978c-b78decd8b785")
-	)
-	(junction
 		(at 186.69 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "72e511bd-f2a0-45f0-903c-17c8e8d26829")
 	)
 	(junction
+		(at 152.4 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "770b969d-321e-42e8-bbc7-9d655558a9fd")
+	)
+	(junction
 		(at 152.4 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8653af35-c43b-4677-ab2c-07b7eb343313")
-	)
-	(junction
-		(at 160.02 107.95)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8aeec9b5-01a3-4a37-aa4f-3ba6231a97bd")
 	)
 	(junction
 		(at 152.4 85.09)
@@ -1636,6 +2055,12 @@
 		(uuid "ab080516-c2df-4e0c-998f-445c04dfa93c")
 	)
 	(junction
+		(at 119.38 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bd5578a3-3b25-4882-84d5-099f85201968")
+	)
+	(junction
 		(at 142.24 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1646,6 +2071,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d47ffb34-b3c2-4ce0-9bce-116074b87963")
+	)
+	(junction
+		(at 162.56 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "db089dbb-9708-4d08-9ffb-157f688b2ba4")
+	)
+	(junction
+		(at 152.4 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dca39a5e-930a-458f-a363-666e47dda8b1")
 	)
 	(junction
 		(at 186.69 95.25)
@@ -1671,6 +2108,16 @@
 	)
 	(wire
 		(pts
+			(xy 119.38 104.14) (xy 119.38 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0292bd88-d237-4e5d-a965-554ede5437f3")
+	)
+	(wire
+		(pts
 			(xy 107.95 132.08) (xy 119.38 132.08)
 		)
 		(stroke
@@ -1691,7 +2138,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 107.95) (xy 152.4 120.65)
+			(xy 152.4 107.95) (xy 152.4 116.84)
 		)
 		(stroke
 			(width 0)
@@ -1821,6 +2268,36 @@
 	)
 	(wire
 		(pts
+			(xy 162.56 102.87) (xy 162.56 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "519d34d3-a505-40b3-bcab-84573b39b7da")
+	)
+	(wire
+		(pts
+			(xy 152.4 129.54) (xy 157.48 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d000b1e-d2c9-46a7-a51f-88dc23a544a1")
+	)
+	(wire
+		(pts
+			(xy 113.03 104.14) (xy 119.38 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60c33954-99c4-4308-9ec8-a86ac39e7b21")
+	)
+	(wire
+		(pts
 			(xy 132.08 85.09) (xy 132.08 115.57)
 		)
 		(stroke
@@ -1861,7 +2338,17 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 107.95) (xy 171.45 107.95)
+			(xy 152.4 116.84) (xy 157.48 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ff88305-ee00-4bd5-8a9a-4b7d094575b9")
+	)
+	(wire
+		(pts
+			(xy 152.4 107.95) (xy 162.56 107.95)
 		)
 		(stroke
 			(width 0)
@@ -1878,6 +2365,16 @@
 			(type default)
 		)
 		(uuid "75a47e83-c337-483a-95c7-5a81fbcdfb43")
+	)
+	(wire
+		(pts
+			(xy 152.4 129.54) (xy 152.4 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77593e9d-3eb5-4bcf-977f-68c6d974e692")
 	)
 	(wire
 		(pts
@@ -1921,16 +2418,6 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 102.87) (xy 160.02 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8122866e-9b30-44ed-b83e-857502b53236")
-	)
-	(wire
-		(pts
 			(xy 194.31 95.25) (xy 186.69 95.25)
 		)
 		(stroke
@@ -1941,7 +2428,17 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 85.09) (xy 160.02 85.09)
+			(xy 162.56 85.09) (xy 168.91 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a152a47-f000-4896-869f-752dac60b6e3")
+	)
+	(wire
+		(pts
+			(xy 152.4 85.09) (xy 162.56 85.09)
 		)
 		(stroke
 			(width 0)
@@ -2001,26 +2498,6 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 107.95) (xy 152.4 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a7fc485b-4b07-4c68-bc84-23bd62a1c20c")
-	)
-	(wire
-		(pts
-			(xy 160.02 85.09) (xy 168.91 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "af690462-8b08-43a1-b4b9-c19b6bd8d05f")
-	)
-	(wire
-		(pts
 			(xy 152.4 132.08) (xy 179.07 132.08)
 		)
 		(stroke
@@ -2028,6 +2505,16 @@
 			(type default)
 		)
 		(uuid "af7a2bf9-b38e-438e-a05b-257aebbd4e6d")
+	)
+	(wire
+		(pts
+			(xy 113.03 92.71) (xy 119.38 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6ac389d-db38-4072-a39d-7a3669866c0e")
 	)
 	(wire
 		(pts
@@ -2041,13 +2528,23 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 128.27) (xy 152.4 132.08)
+			(xy 152.4 128.27) (xy 152.4 129.54)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "bcd071cc-d8ae-40cc-8275-91fe87d808a6")
+	)
+	(wire
+		(pts
+			(xy 162.56 107.95) (xy 171.45 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be4ad9cd-de87-48c6-a844-1e4289936ad8")
 	)
 	(wire
 		(pts
@@ -2071,6 +2568,16 @@
 	)
 	(wire
 		(pts
+			(xy 162.56 85.09) (xy 162.56 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d96272b3-0217-450d-ba19-d1cfc30803fa")
+	)
+	(wire
+		(pts
 			(xy 171.45 97.79) (xy 186.69 97.79)
 		)
 		(stroke
@@ -2081,13 +2588,23 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 100.33) (xy 119.38 106.68)
+			(xy 119.38 100.33) (xy 119.38 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e273a6ea-e531-4e9c-bc54-a6d6d540f4c8")
+	)
+	(wire
+		(pts
+			(xy 152.4 116.84) (xy 152.4 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e39817eb-c480-45d9-b91b-79c8f117049b")
 	)
 	(wire
 		(pts
@@ -2131,16 +2648,6 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 85.09) (xy 160.02 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fa645be0-4c7e-4370-9e10-dc88d612ee82")
-	)
-	(wire
-		(pts
 			(xy 142.24 85.09) (xy 152.4 85.09)
 		)
 		(stroke
@@ -2170,7 +2677,6 @@
 	)
 	(label "GND"
 		(at 186.69 100.33 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2181,7 +2687,6 @@
 	)
 	(label "LED_ON"
 		(at 186.69 105.41 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2192,7 +2697,6 @@
 	)
 	(label "3v3"
 		(at 186.69 95.25 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2203,7 +2707,6 @@
 	)
 	(label "ADC"
 		(at 186.69 97.79 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2212,9 +2715,8 @@
 		)
 		(uuid "a1cf970d-5eec-42ac-a84d-fa33c2cc38d4")
 	)
-	(label "BattV"
+	(label "Vbatt"
 		(at 186.69 102.87 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2232,7 +2734,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0ac87e47-7543-4ec9-b493-7b7fe7f4d45c")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR03"
 			(at 190.5 102.87 0)
 			(effects
 				(font
@@ -2241,7 +2743,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+9V"
+		(property "Value" "Vbatt"
 			(at 196.088 104.648 90)
 			(effects
 				(font
@@ -2268,7 +2770,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+9V\""
+		(property "Description" "Power symbol creates a global label with name \"Vbatt\""
 			(at 194.31 102.87 0)
 			(effects
 				(font
@@ -2283,7 +2785,141 @@
 		(instances
 			(project ""
 				(path "/87de0e5b-c96f-4913-b13f-25c167743d73"
-					(reference "#PWR02")
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 157.48 129.54 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "13e284a9-b95b-45ee-93d3-ba6257ae514e")
+		(property "Reference" "TP4"
+			(at 162.56 128.2699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 162.56 130.8099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 157.48 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 157.48 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 157.48 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ffd825c6-4e8d-410f-aef3-62baee202f65")
+		)
+		(instances
+			(project "MouseSMDSensorBoard"
+				(path "/87de0e5b-c96f-4913-b13f-25c167743d73"
+					(reference "TP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 157.48 116.84 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1464ac55-9c46-4fbf-a5f9-6f6ef0e28164")
+		(property "Reference" "TP3"
+			(at 162.56 115.5699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 162.56 118.1099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 157.48 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 157.48 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 157.48 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "311c60b8-8f97-4d02-8d46-f5a6c4958a86")
+		)
+		(instances
+			(project "MouseSMDSensorBoard"
+				(path "/87de0e5b-c96f-4913-b13f-25c167743d73"
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -2299,7 +2935,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1776279a-be40-49df-a33e-e60cb339eade")
-		(property "Reference" "RPullDown1"
+		(property "Reference" "R2"
 			(at 99.06 126.9999 0)
 			(effects
 				(font
@@ -2353,7 +2989,7 @@
 		(instances
 			(project "MouseSMDSensorBoard"
 				(path "/87de0e5b-c96f-4913-b13f-25c167743d73"
-					(reference "RPullDown1")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -2369,7 +3005,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "289fdadd-ef6b-41b7-993a-84ebb7ec22cf")
-		(property "Reference" "R2"
+		(property "Reference" "R5"
 			(at 154.94 123.1899 0)
 			(effects
 				(font
@@ -2423,7 +3059,7 @@
 		(instances
 			(project "MouseSMDSensorBoard"
 				(path "/87de0e5b-c96f-4913-b13f-25c167743d73"
-					(reference "R2")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -2439,7 +3075,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3b1b8660-6184-4a35-b304-ea407f098857")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR02"
 			(at 200.66 100.33 0)
 			(effects
 				(font
@@ -2490,7 +3126,7 @@
 		(instances
 			(project ""
 				(path "/87de0e5b-c96f-4913-b13f-25c167743d73"
-					(reference "#PWR01")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -2505,7 +3141,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3f00ab20-5aa8-4f2f-a0d0-d09cc3f3ed52")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR01"
 			(at 190.5 95.25 0)
 			(effects
 				(font
@@ -2514,7 +3150,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V"
+		(property "Value" "Vcc"
 			(at 193.548 93.218 90)
 			(effects
 				(font
@@ -2541,7 +3177,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+		(property "Description" "Power symbol creates a global label with name \"Vcc\""
 			(at 194.31 95.25 0)
 			(effects
 				(font
@@ -2556,7 +3192,7 @@
 		(instances
 			(project ""
 				(path "/87de0e5b-c96f-4913-b13f-25c167743d73"
-					(reference "#PWR03")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -2712,7 +3348,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "52c2e91e-2b02-4081-b183-b20b251d9fe9")
-		(property "Reference" "RSENSE1"
+		(property "Reference" "R4"
 			(at 121.92 126.9999 0)
 			(effects
 				(font
@@ -2766,7 +3402,7 @@
 		(instances
 			(project "MouseSMDSensorBoard"
 				(path "/87de0e5b-c96f-4913-b13f-25c167743d73"
-					(reference "RSENSE1")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -2920,6 +3556,71 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 113.03 92.71 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8bd6d64b-8b24-45ab-996d-ae96c12c0f1c")
+		(property "Reference" "TP1"
+			(at 109.728 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 109.728 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 113.03 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 113.03 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 113.03 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fb328d1d-b9d6-4c60-94fb-9ef3462c4831")
+		)
+		(instances
+			(project ""
+				(path "/87de0e5b-c96f-4913-b13f-25c167743d73"
+					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 142.24 119.38 0)
 		(unit 1)
@@ -3060,6 +3761,71 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 113.03 104.14 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a43fb038-3aad-4ddd-aec0-020d2f09f856")
+		(property "Reference" "TP2"
+			(at 109.728 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 109.728 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 113.03 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 113.03 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 113.03 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c9e11a19-3330-4166-b00c-721c1f5f49b2")
+		)
+		(instances
+			(project "MouseSMDSensorBoard"
+				(path "/87de0e5b-c96f-4913-b13f-25c167743d73"
+					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Transistor_BJT:BC849")
 		(at 110.49 119.38 0)
 		(mirror y)
@@ -3088,7 +3854,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23_Handsoldering"
 			(at 105.41 121.285 0)
 			(effects
 				(font
@@ -3137,82 +3903,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:BF545A")
-		(at 116.84 111.76 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b8be7190-daa5-4cf9-ac0d-349809bd29e1")
-		(property "Reference" "FET1"
-			(at 121.92 110.4899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BSH108,215"
-			(at 121.92 113.0299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 121.92 113.665 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.nxp.com/docs/en/data-sheet/BF545A_BF545B_BF545C.pdf"
-			(at 121.92 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "5mA Idss, 30V Vgs, N-Channel JFET, SOT-23"
-			(at 116.84 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3353c7b7-0181-4349-9c01-6dfcf511bae2")
-		)
-		(pin "2"
-			(uuid "d41d2b77-a9c7-45df-9682-38f4f9e718e8")
-		)
-		(pin "3"
-			(uuid "b7460811-8892-43aa-a3d1-6aaff895aa10")
-		)
-		(instances
-			(project ""
-				(path "/87de0e5b-c96f-4913-b13f-25c167743d73"
-					(reference "FET1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 172.72 85.09 90)
 		(unit 1)
@@ -3222,7 +3912,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "be5fc3be-319e-489e-9bef-5de8fa50c304")
-		(property "Reference" "R4"
+		(property "Reference" "R6"
 			(at 172.72 78.74 90)
 			(effects
 				(font
@@ -3274,7 +3964,83 @@
 		(instances
 			(project "MouseSMDSensorBoard"
 				(path "/87de0e5b-c96f-4913-b13f-25c167743d73"
-					(reference "R4")
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PB_Library:PMV45EN2")
+		(at 116.84 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c8e34178-f54e-4e05-8962-a8bab117a93a")
+		(property "Reference" "FET1"
+			(at 123.19 110.4899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PMV45EN2"
+			(at 123.19 113.0299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23_Handsoldering"
+			(at 121.92 113.665 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PMV45EN2.pdf"
+			(at 121.92 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "N-Channel MOSFET, 5.1 A, 30 V, 3-Pin SOT-23"
+			(at 116.84 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0ecd960d-c0bf-4af7-8369-4b1478a632f2")
+		)
+		(pin "1"
+			(uuid "ba048a83-1590-46cb-9e25-87fff5e8715f")
+		)
+		(pin "3"
+			(uuid "a50bf7db-8349-42d5-90eb-31bce80af4e3")
+		)
+		(instances
+			(project ""
+				(path "/87de0e5b-c96f-4913-b13f-25c167743d73"
+					(reference "FET1")
 					(unit 1)
 				)
 			)
@@ -3289,7 +4055,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f54e80da-1361-43e3-b385-0c6f0fe48603")
-		(property "Reference" "PD2"
+		(property "Reference" "PD1"
 			(at 146.304 99.822 90)
 			(effects
 				(font
@@ -3298,7 +4064,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "VEMD4010X01"
+		(property "Value" "QSB34"
 			(at 144.78 103.124 90)
 			(effects
 				(font
@@ -3307,7 +4073,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "PBFootPrintLibrary:PLCC_2L_Handsoldering"
 			(at 152.4 99.06 0)
 			(effects
 				(font
@@ -3325,7 +4091,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Photodiode VEMD4010X01"
+		(property "Description" "Photodiode QSB34 (RS part number 805-0508)"
 			(at 152.4 100.33 0)
 			(effects
 				(font
@@ -3343,23 +4109,23 @@
 		(instances
 			(project ""
 				(path "/87de0e5b-c96f-4913-b13f-25c167743d73"
-					(reference "PD2")
+					(reference "PD1")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Photo")
-		(at 160.02 100.33 270)
+		(lib_id "Sensor_Optical:BPW40")
+		(at 160.02 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "f5e971ac-7e07-4d16-90ed-feaf03314731")
-		(property "Reference" "PD3"
-			(at 165.1 98.1074 90)
+		(property "Reference" "PD2"
+			(at 164.592 99.568 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3368,7 +4134,7 @@
 			)
 		)
 		(property "Value" "BPW96B"
-			(at 161.036 103.124 90)
+			(at 163.322 102.108 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3377,7 +4143,7 @@
 			)
 		)
 		(property "Footprint" "LED_THT:LED_D5.0mm"
-			(at 160.02 99.06 0)
+			(at 158.75 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3386,7 +4152,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 160.02 99.06 0)
+			(at 158.75 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3395,7 +4161,7 @@
 			)
 		)
 		(property "Description" "Photodiode"
-			(at 160.02 100.33 0)
+			(at 160.02 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3412,7 +4178,7 @@
 		(instances
 			(project ""
 				(path "/87de0e5b-c96f-4913-b13f-25c167743d73"
-					(reference "PD3")
+					(reference "PD2")
 					(unit 1)
 				)
 			)
