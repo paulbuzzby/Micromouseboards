@@ -549,6 +549,223 @@
 				)
 			)
 		)
+		(symbol "Sensor_Optical:BPW40"
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "BPW40"
+				(at 5.08 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "LED_THT:LED_D5.0mm_Clear"
+				(at 12.192 -3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.rcscomponents.kiev.ua/datasheets/bpw40.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Phototransistor NPN"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "npn phototransistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED*D5.0mm*Clear*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BPW40_0_1"
+				(polyline
+					(pts
+						(xy -1.905 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.54) (xy -1.905 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 0.635) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 3.175) (xy -1.905 1.27) (xy -1.905 1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.175 4.445) (xy -1.27 2.54) (xy -1.27 3.175)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -0.635) (xy 2.54 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.905) (xy 0.635 -1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778) (xy 1.27 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.27 0)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "BPW40_1_1"
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 	)
 	(junction
 		(at 160.02 107.95)
@@ -664,7 +881,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 102.87) (xy 160.02 107.95)
+			(xy 160.02 100.33) (xy 160.02 107.95)
 		)
 		(stroke
 			(width 0)
@@ -804,7 +1021,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 85.09) (xy 160.02 95.25)
+			(xy 160.02 85.09) (xy 160.02 90.17)
 		)
 		(stroke
 			(width 0)
@@ -814,7 +1031,6 @@
 	)
 	(label "Sen+"
 		(at 179.07 83.82 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -825,7 +1041,6 @@
 	)
 	(label "LED+"
 		(at 179.07 81.28 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -836,7 +1051,6 @@
 	)
 	(label "Sen-"
 		(at 179.07 86.36 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -847,7 +1061,6 @@
 	)
 	(label "LED-"
 		(at 179.07 78.74 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1020,7 +1233,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "VEMD4010X01"
+		(property "Value" "QSB34"
 			(at 144.78 103.124 90)
 			(effects
 				(font
@@ -1029,7 +1242,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+		(property "Footprint" "PBFootPrintLibrary:PLCC_2L_Handsoldering"
 			(at 152.4 99.06 0)
 			(effects
 				(font
@@ -1072,8 +1285,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Photo")
-		(at 160.02 100.33 270)
+		(lib_id "Sensor_Optical:BPW40")
+		(at 157.48 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1081,7 +1294,7 @@
 		(dnp no)
 		(uuid "f5e971ac-7e07-4d16-90ed-feaf03314731")
 		(property "Reference" "PD3"
-			(at 165.1 98.1074 90)
+			(at 162.052 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1090,7 +1303,7 @@
 			)
 		)
 		(property "Value" "BPW96B"
-			(at 161.036 103.124 90)
+			(at 160.274 94.234 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1098,8 +1311,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D5.0mm"
-			(at 160.02 99.06 0)
+		(property "Footprint" "LED_THT:LED_D5.0mm_Clear"
+			(at 169.672 98.806 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1107,8 +1320,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 160.02 99.06 0)
+		(property "Datasheet" "https://www.rcscomponents.kiev.ua/datasheets/bpw40.pdf"
+			(at 157.48 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1116,8 +1329,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Photodiode"
-			(at 160.02 100.33 0)
+		(property "Description" "Phototransistor NPN"
+			(at 157.48 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)

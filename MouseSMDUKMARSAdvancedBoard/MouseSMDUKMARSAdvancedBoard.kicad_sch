@@ -808,6 +808,108 @@
 				)
 			)
 		)
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "PB_Library:PMV45EN2"
 			(pin_names hide)
 			(exclude_from_sim no)
@@ -2589,6 +2691,16 @@
 		)
 		(uuid "8faa0046-78ba-49d5-85e7-4c0dc561dc29")
 	)
+	(polyline
+		(pts
+			(xy 238.76 128.27) (xy 274.32 128.27)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "916daa21-4eab-4a75-b246-a16bd626cd27")
+	)
 	(wire
 		(pts
 			(xy 78.74 30.48) (xy 78.74 31.75)
@@ -2879,6 +2991,16 @@
 		)
 		(uuid "e98a9e4f-9cc5-4ae3-a608-67f5bcab09ae")
 	)
+	(polyline
+		(pts
+			(xy 274.32 160.02) (xy 238.76 160.02)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "eb5a7a93-9b65-419a-8a5b-7041e6f9637c")
+	)
 	(wire
 		(pts
 			(xy 160.02 41.91) (xy 170.18 41.91)
@@ -2929,6 +3051,16 @@
 		)
 		(uuid "fa93fd73-d528-4f6d-8f85-c250db7a8ff1")
 	)
+	(polyline
+		(pts
+			(xy 274.32 128.27) (xy 274.32 160.02)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "fc1bdbc4-e070-4a76-a7e7-f64e68c5d4c6")
+	)
 	(wire
 		(pts
 			(xy 139.7 154.94) (xy 142.24 154.94)
@@ -2938,6 +3070,16 @@
 			(type default)
 		)
 		(uuid "fda372ea-3efd-43c0-9bc4-6a7c32125b24")
+	)
+	(polyline
+		(pts
+			(xy 238.76 160.02) (xy 238.76 128.27)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "fddcc06e-4cf1-4509-9662-403a5359445b")
 	)
 	(rectangle
 		(start 19.05 110.49)
@@ -3011,6 +3153,17 @@
 		)
 		(uuid "2408e0d7-d1a0-4a4c-ad8e-c70071f3139e")
 	)
+	(text "Mounting Holes"
+		(exclude_from_sim no)
+		(at 247.65 158.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2a67867a-6ed6-49c0-8a17-ec0e0664a105")
+	)
 	(text "Front Circuits\n"
 		(exclude_from_sim no)
 		(at 27.686 113.03 0)
@@ -3021,7 +3174,7 @@
 		)
 		(uuid "4b64bf8f-4414-4d3c-8950-817240709edf")
 	)
-	(global_label "GPIO_LED"
+	(global_label "SENSOR_LED"
 		(shape input)
 		(at 199.39 107.95 180)
 		(fields_autoplaced yes)
@@ -3043,7 +3196,7 @@
 			)
 		)
 	)
-	(global_label "A3_RF"
+	(global_label "RIGHT_FRONT_ADC"
 		(shape input)
 		(at 231.14 54.61 0)
 		(fields_autoplaced yes)
@@ -3065,7 +3218,7 @@
 			)
 		)
 	)
-	(global_label "A2_LD"
+	(global_label "LEFT_DIAG_ADC"
 		(shape input)
 		(at 137.16 66.04 0)
 		(fields_autoplaced yes)
@@ -3109,7 +3262,7 @@
 			)
 		)
 	)
-	(global_label "A1_RD"
+	(global_label "RIGHT_DIAG_ADC"
 		(shape input)
 		(at 152.4 66.04 0)
 		(fields_autoplaced yes)
@@ -3175,7 +3328,7 @@
 			)
 		)
 	)
-	(global_label "A0_LF"
+	(global_label "LEFT_FRONT_ADC"
 		(shape input)
 		(at 231.14 62.23 0)
 		(fields_autoplaced yes)
@@ -3219,7 +3372,7 @@
 			)
 		)
 	)
-	(global_label "GPIO_LED"
+	(global_label "SENSOR_LED"
 		(shape input)
 		(at 236.22 74.93 0)
 		(fields_autoplaced yes)
@@ -3241,7 +3394,7 @@
 			)
 		)
 	)
-	(global_label "A3_RF"
+	(global_label "RIGHT_FRONT_ADC"
 		(shape input)
 		(at 142.24 154.94 0)
 		(fields_autoplaced yes)
@@ -3263,7 +3416,7 @@
 			)
 		)
 	)
-	(global_label "A2_LD"
+	(global_label "LEFT_DIAG_ADC"
 		(shape input)
 		(at 231.14 59.69 0)
 		(fields_autoplaced yes)
@@ -3285,7 +3438,7 @@
 			)
 		)
 	)
-	(global_label "A1_RD"
+	(global_label "RIGHT_DIAG_ADC"
 		(shape input)
 		(at 231.14 57.15 0)
 		(fields_autoplaced yes)
@@ -3307,7 +3460,7 @@
 			)
 		)
 	)
-	(global_label "A0_LF"
+	(global_label "LEFT_FRONT_ADC"
 		(shape input)
 		(at 127 154.94 0)
 		(fields_autoplaced yes)
@@ -4994,6 +5147,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 261.62 147.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8934bf1a-a2ad-4bac-948e-bc04d1e00d45")
+		(property "Reference" "H2"
+			(at 264.16 146.0754 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "3.2mm"
+			(at 264.16 147.2438 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
+			(at 261.62 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 261.62 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 261.62 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a4cbabd6-8cdb-427b-af44-2f39447be26a")
+		)
+		(instances
+			(project "MouseSMDUKMARSAdvancedBoard"
+				(path "/87de0e5b-c96f-4913-b13f-25c167743d73"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 114.3 165.1 0)
 		(unit 1)
@@ -5270,6 +5490,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 261.62 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a1b0172b-53e8-4dad-9d4f-b716308c2ba7")
+		(property "Reference" "#PWR013"
+			(at 261.62 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 261.747 141.5542 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 261.62 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 261.62 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 261.62 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e8fc5459-f7a4-4a13-9fa7-89bcd505ab8b")
+		)
+		(instances
+			(project "MouseSMDUKMARSAdvancedBoard"
+				(path "/87de0e5b-c96f-4913-b13f-25c167743d73"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x10")
 		(at 217.17 64.77 180)
 		(unit 1)
@@ -5358,6 +5643,73 @@
 			(project ""
 				(path "/87de0e5b-c96f-4913-b13f-25c167743d73"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 261.62 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ab6497e9-9adb-4eee-b34a-bb869440ae23")
+		(property "Reference" "H1"
+			(at 264.16 133.3754 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "3.2mm"
+			(at 264.16 134.5438 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
+			(at 261.62 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 261.62 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 261.62 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "547c13f0-97cb-4481-baf9-33553e182d33")
+		)
+		(instances
+			(project "MouseSMDUKMARSAdvancedBoard"
+				(path "/87de0e5b-c96f-4913-b13f-25c167743d73"
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -6335,6 +6687,71 @@
 			(project "MouseSMDUKMARSAdvancedBoard"
 				(path "/87de0e5b-c96f-4913-b13f-25c167743d73"
 					(reference "FLED1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 261.62 149.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f38aff63-e2da-4db8-9a1c-afa802c34a5c")
+		(property "Reference" "#PWR014"
+			(at 261.62 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 261.747 154.2542 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 261.62 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 261.62 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 261.62 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "477a6e63-3903-4e4c-a102-2d0f28536f6e")
+		)
+		(instances
+			(project "MouseSMDUKMARSAdvancedBoard"
+				(path "/87de0e5b-c96f-4913-b13f-25c167743d73"
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)

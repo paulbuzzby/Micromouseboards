@@ -3841,7 +3841,7 @@
 		)
 	)
 	(gr_text "GND"
-		(at 142 77.05 90)
+		(at 141.87 77.06 90)
 		(layer "B.SilkS")
 		(uuid "d4574207-1aa4-4f3c-bfc5-12c8f9590d24")
 		(effects
@@ -3889,7 +3889,7 @@
 		)
 	)
 	(gr_text "GND"
-		(at 141 77.05 -90)
+		(at 140.86 77.06 -90)
 		(layer "F.SilkS")
 		(uuid "428a7124-b9f6-492c-83c6-fd1a365b2de8")
 		(effects
@@ -3901,7 +3901,7 @@
 		)
 	)
 	(gr_text "Vb\n"
-		(at 138.4 77.05 270)
+		(at 138.41 77.15 270)
 		(layer "F.SilkS")
 		(uuid "64aacc11-7362-4b88-b737-fce690337e28")
 		(effects
