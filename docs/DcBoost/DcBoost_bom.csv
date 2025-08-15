@@ -1,0 +1,8 @@
+Reference,Value,Qty,Note,Description
+C2,10uF,1,,Unpolarized capacitor
+C1,2.2uF,1,,Unpolarized capacitor
+D1,SS34,1,,"Schottky diode, small symbol, filled shape"
+L1,L4.7uH,1,,Inductor
+R2,R10k,1,,Resistor
+R1,R64.9k,1,,Resistor
+U1,MIC2288,1,,DC Boost

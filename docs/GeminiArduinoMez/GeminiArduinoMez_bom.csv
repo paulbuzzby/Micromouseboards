@@ -1,0 +1,8 @@
+Reference,Value,Qty,Note,Description
+A1,Arduino_Nano_RP2040_Connect,1,,"Arduino Nano board based on the RP2040 microcontroller with a dual-core 133 MHz ARM Cortex-M0+ processor, 264 kB SRAM, and up to 16 MB flash memory. Operates at 3.3V, with 5V Micro USB input and 4-20V VIN. Features Wi-Fi®, Bluetooth® LE, digital and analog pins, and supports SPI, I2C, UART, and PIO. Includes a 6-axis IMU, RGB LED, microphone, and cryptographic chip for secure communication."
+D1,LED,1,,Light emitting diode
+J1 J3 J4,Conn_01x16,3,,"Generic connector, single row, 01x16, script generated (kicad-library-utils/schlib/autogen/connector/) Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+R2,180K,1,,Resistor
+R1,680R,1,,Resistor
+R3,68K,1,,Resistor
+SW1,TACT_SW,1,,TACT switch 6mm 4.5mm

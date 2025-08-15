@@ -1,0 +1,24 @@
+Reference,Value,Qty,Note,Description
+C1 C4 C5 C6,10uF,4,,Unpolarized capacitor
+C2 C3,"330uF, 16V",2,Maximum height is 10mm,
+D1,1N5401,1,> 2A rectifier. Shottky is good,
+D2,LED,1,,Light emitting diode
+DLED1 DLED2 FLED1 FLED2,TLCR5800,4,,Light emitting diode
+FET1 FET2,PMV45EN2,2,,"N-Channel MOSFET, 5.1 A, 30 V, 3-Pin SOT-23"
+GROUND1 GROUND2 J4 J5 J6,GROUND,5,"0.1"" pitch, polarised, any type","Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/) Generic connector, double row, 02x10, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/) Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+J2 J3,CONN_06SILK_FEMALE_PTH,2,"6 pin header, 0.1"", male",
+LDPD1 LFPD1 RDPD1 RFPD1,BPW96B,4,,Photodiode
+M1,Left MOTOR,1,commercial mounts need bushing for screws,
+M2,Right MOTOR,1,commercial mounts need bushing for screws,
+R2 R4,100K,2,,Resistor
+R5 R7,10R,2,,Resistor
+R15,180K,1,,Resistor
+R17,1K0,1,,Resistor
+R1 R3 R13 R14,220R,4,,Resistor
+R16,68K,1,,Resistor
+R9 R10 R11 R12,R,4,,Resistor
+R6 R8,R56,2,,Resistor
+RESET1,TACT_SW,1,,TACT switch 6mm 4.5mm
+TR1 TR2,BC849,2,,"0.1A Ic, 30V Vce, NPN Transistor, SOT-23"
+U2,DC Boost,1,,DC-DC boost converter
+U1,DFRobot_DC_Controller,1,,

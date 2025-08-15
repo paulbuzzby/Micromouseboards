@@ -1,0 +1,5 @@
+Reference,Value,Qty,Note,Description
+J2,Conn_01x04,1,,"Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+LED1,TLCR5800,1,,Light emitting diode
+PD3,BPW96B,1,,Phototransistor NPN
+PD2,QSB34,1,,Photodiode VEMD4010X01

@@ -1,0 +1,11 @@
+Reference,Value,Qty,Note,Description
+C1 C2,"330uF, 16V",2,Maximum height is 10mm,
+D1,1N5401,1,> 2A rectifier. Shottky is good,
+GROUND1 GROUND2 J1 J4 J5 J6,GROUND,6,"0.1"" pitch, polarised, any type","Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/) Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/) Generic connector, double row, 02x10, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/) Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+J2 J3,CONN_06SILK_FEMALE_PTH,2,"6 pin header, 0.1"", male",
+M1,Left MOTOR,1,commercial mounts need bushing for screws,
+M2,Right MOTOR,1,commercial mounts need bushing for screws,
+R1,180K,1,,Resistor
+R2,68K,1,,Resistor
+RESET1,TACT_SW,1,,TACT switch 6mm 4.5mm
+U1,DFRobot_DC_Controller,1,,

@@ -1,0 +1,10 @@
+Reference,Value,Qty,Note,Description
+C1 C2,10uF,2,,Unpolarized capacitor
+FET1,"BSH108,215",1,,"5mA Idss, 30V Vgs, N-Channel JFET, SOT-23"
+J1 J2,Conn_01x05,2,,"Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/) Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
+R3,10R,1,,Resistor
+R1 R4,220R,2,,Resistor
+RPD1,100K,1,,Resistor
+RSENSE1,R56,1,,Resistor
+S1R1 S2R1,R,2,,Resistor
+TR1,BC849,1,,"0.1A Ic, 30V Vce, NPN Transistor, SOT-23"

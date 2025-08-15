@@ -1,0 +1,14 @@
+Reference,Value,Qty,Note,Description
+C1 C2 C3 C4,10uF,4,,Unpolarized capacitor
+D1,LED,1,,Light emitting diode
+DLED1 DLED2 FLED1 FLED2,TLCR5800,4,,Light emitting diode
+FET1 FET2,PMV45EN2,2,,"N-Channel MOSFET, 5.1 A, 30 V, 3-Pin SOT-23"
+J1,Conn_01x10,1,,"Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"
+LDPD1 LFPD1 RDPD1 RFPD2,BPW96B,4,,Photodiode
+R3 R4,100K,2,,Resistor
+R5 R7,10R,2,,Resistor
+R15,1K0,1,,Resistor
+R1 R2 R12 R14,220R,4,,Resistor
+R9 R10 R11 R13,R,4,,Resistor
+R6 R8,R56,2,,Resistor
+TR1 TR2,BC849,2,,"0.1A Ic, 30V Vce, NPN Transistor, SOT-23"
