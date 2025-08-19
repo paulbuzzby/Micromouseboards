@@ -1,6 +1,7 @@
 Reference,Value,Qty,Note,Description
 A1,Arduino_Nano_RP2040_Connect,1,,"Arduino Nano board based on the RP2040 microcontroller with a dual-core 133 MHz ARM Cortex-M0+ processor, 264 kB SRAM, and up to 16 MB flash memory. Operates at 3.3V, with 5V Micro USB input and 4-20V VIN. Features Wi-Fi®, Bluetooth® LE, digital and analog pins, and supports SPI, I2C, UART, and PIO. Includes a 6-axis IMU, RGB LED, microphone, and cryptographic chip for secure communication."
-C1 C2 C3 C5,10uF,4,,Unpolarized capacitor
+C7 C8 C10 C12,0.1uF,4,,
+C1 C2 C3 C5 C9 C11,10uF,6,,Unpolarized capacitor
 C4 C6,"330uF, 16V",2,Maximum height is 10mm,
 D3 D4 D5,LED,3,,Light emitting diode
 D2,SS34,1,RS - 808-0433,"onsemi 40V 3A, Schottky Diode"
@@ -22,5 +23,4 @@ R9 R10 R11 R13,R,4,,Resistor
 R6 R8,R56,2,,Resistor
 SW1,TACT_SW,1,,TACT switch 6mm 4.5mm
 TR1 TR2,BC849,2,,"0.1A Ic, 30V Vce, NPN Transistor, SOT-23"
-U3,DC Boost,1,,DC-DC boost converter
 U1,DFRobot_DC_Controller,1,,
