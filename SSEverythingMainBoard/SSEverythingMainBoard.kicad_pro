@@ -59,7 +59,10 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "courtyards_overlap|73055000|106055000|3528cf95-4cb1-4858-95e7-3d7f0b6472b2|ca52ca0c-89f3-4063-b07b-fda7d35c7b23",
+        "courtyards_overlap|73055000|109455000|c500a4a9-d59e-46de-9236-2c74604975cb|ca52ca0c-89f3-4063-b07b-fda7d35c7b23"
+      ],
       "meta": {
         "version": 2
       },
@@ -184,7 +187,10 @@
       ],
       "track_widths": [
         0.0,
-        0.254
+        0.3,
+        0.4,
+        0.5,
+        0.8
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -759,6 +765,6 @@
   ],
   "text_variables": {
     "designer": "PRB",
-    "version": "2.0"
+    "version": "3.0"
   }
 }
