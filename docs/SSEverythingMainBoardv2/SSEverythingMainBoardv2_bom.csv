@@ -4,22 +4,19 @@ C1 C2 C3 C5 C7 C8 C9 C10,10uF,8,,Unpolarized capacitor
 C4 C6,"330uF, 16V",2,Maximum height is 10mm,
 D3 D4 D5,LED,3,,Light emitting diode
 D2,SS34,1,RS - 808-0433,"onsemi 40V 3A, Schottky Diode"
-FET1 FET2 FET3 FET4,SOT-23 DMG2302UK-7,4,,"N-Channel MOSFET, 5.1 A, 30 V, 3-Pin SOT-23 N-Channel MOSFET, 12V to 28V, Diodes Inc"
 FLLED1 FRLED2 LDLED1 RDLED2,TLCR5800,4,,Light emitting diode
 GROUND1 GROUND2 J3 J4 J5 J6,GROUND,6,"0.1"" pitch, polarised, any type","Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/) Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/) Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
 J1 J2,CONN_06SILK_FEMALE_PTH,2,"6 pin header, 0.1"", male",
 LDPD1 LFPD1 RDPD1 RFPD1,BPW96B,4,,Photodiode
 M1,Left MOTOR,1,commercial mounts need bushing for screws,
 M2,Right MOTOR,1,commercial mounts need bushing for screws,
-Q1,PMBT3904YS,1,,"200mA IC, 40V Vce, Dual NPN/NPN Transistors, SOT-363"
+Q1 Q2 Q3 Q4,PBSS4160DS,4,,
 R3 R4,100K,2,,Resistor
-R19,180K,1,,Resistor
-R17 R18,1K,2,,Resistor
+R5 R7 R15 R22,100R,4,,Resistor
+R1 R2 R17 R18,1K,4,,Resistor
 R21,1K0,1,,Resistor
-R1 R2 R5 R7 R12 R14 R15 R22 R24 R25,220R,10,,Resistor
-R20,68K,1,,Resistor
+R12 R14 R24 R25,220R,4,,Resistor
+R6 R8 R16 R23,2R,4,,Resistor
 R9 R10 R11 R13,R,4,,Resistor
-R6 R8 R16 R23,R56,4,,Resistor
 SW1,TACT_SW,1,,TACT switch 6mm 4.5mm
-TR1 TR2 TR3 TR4,BC849,4,,"0.1A Ic, 30V Vce, NPN Transistor, SOT-23"
 U1,DFRobot_DC_Controller,1,,
